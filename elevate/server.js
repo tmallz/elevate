@@ -1,38 +1,24 @@
-const express = require('express');
-const routes = require('./routes');
-const session = require('express-session');
-const sequelize = require('./config/connection');
-const exphbs = require('express-handlebars');
-const path = require('path');
-const helpers = require('./utils/helpers')
-require('dotenv').config();
+const express = require("express");
 
-// import sequelize connection
-
+const mongoose = require("mongoose");
+const routes = require("./routes");
 const app = express();
-const PORT = (process.env.PORT || 3001);
+const PORT = process.env.PORT || 3001;
 
-const sess = {
-    secret: 'Super secret secret',
-    resave: false,
-    saveUninitialized: true,
-}
-
-app.use(session(sess));
-
-const hbs = exphbs.create({helpers});
-
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
-// app.set('view options', {layout: 'main'});
-
-app.use(express.json());
+// Define middleware here
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(express.json());
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+// Add routes, both API and view
 app.use(routes);
 
-// sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log('Now listening'));
-  });
+// Connect to the Mongo DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist");
+
+// Start the API server
+app.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+});
