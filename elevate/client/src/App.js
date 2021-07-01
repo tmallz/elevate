@@ -5,16 +5,16 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div>
         <Nav />
-        <Switch>
-          <Route exact path="/">
+        {/* <Switch> */}
+          {/* <Route exact path="/"> */}
             <Homepage />
-          </Route>
-        </Switch>
+          {/* </Route> */}
+        {/* </Switch> */}
       </div>
-    </Router>
+    // </Router>
   );
 }
 

@@ -10,11 +10,12 @@ import { Col, Row, Container } from "../components/Grid";
 function Homepage() {
 
   function loadApp(e){
-    document.location.replace('/elevate');
+    //document.location.replace('/elevate');
+    window.open('/html/map.html');
   }
 
   function loadLogin(e){
-    document.location.replace('login');
+    document.location.replace('/login');
   }
 
 
