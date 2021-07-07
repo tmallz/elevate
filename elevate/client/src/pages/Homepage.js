@@ -15,7 +15,7 @@ function Homepage() {
   }
 
   function loadLogin(e){
-    document.location.replace('/login');
+    window.open('/html/login.html');
   }
 
 
