@@ -1,8 +1,8 @@
 const loginFormHandler = async (event) => {
     event.preventDefault();
   
-    const username = document.querySelector('#uname').value.trim();
-    const password = document.querySelector('#pword').value.trim();
+    const username = document.querySelector('#login').value.trim();
+    const password = document.querySelector('#password').value.trim();
   
     if (username && password) {
       const response = await fetch('/api/users/login', {
@@ -12,7 +12,8 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        //document.location.replace('/h');
+        window.open('/html/map.html')
       } else {
         alert(response.statusText);
       }
