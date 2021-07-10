@@ -2,19 +2,19 @@
 
 Elevate is an app that shows you the closest ADA accessible CTA station with an elevator. It also will provide you the option to save stations that you use most often.
 
-#Features
+# Features
 
 - Ability to create a profile and sign in. 
 - All the stations show up on a map and you are able to find the closest one to you.
 - An option to save stations making it easier to get the fastest route to it.
 
-#User Story
+# User Story
 
 - To make public transportation an easy option for everybody in need of it.
 - Simpliest way to find ADA accessible stops.
 - Ability to save information to make it even quicker next time trying to get to that stop.
 
-#Technologies Used
+# Technologies Used
 
 - Javascript
 - Bootstrap
@@ -22,26 +22,26 @@ Elevate is an app that shows you the closest ADA accessible CTA station with an 
 - HTML
 - CSS
 
-#Screenshots
+# Screenshots
 
 (INSERT WHEN DONE)
 
-#Contributions
+# Contributions
 
 - Tim O'Malley: (GITHUB LINKS)
 - Solomon Woods:
 - Haneen Nasereddin:
 
-#Tasks
+# Tasks
 
 - Tim: Backend
 - Haneen: Frontend
 - Solomon: Deployment/Help as needed
 
-#Github Repo
+# Github Repo
 
 (INSERT)
 
-#Deployed App
+# Deployed App
 
 (INSERT)
