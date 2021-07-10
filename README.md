@@ -21,6 +21,7 @@ Elevate is an app that shows you the closest ADA accessible CTA station with an 
 - React
 - HTML
 - CSS
+- Mysql
 
 # Screenshots
 
@@ -34,7 +35,7 @@ Elevate is an app that shows you the closest ADA accessible CTA station with an 
 
 # Tasks
 
-- Tim: Backend
+- Tim: Backdnd
 - Haneen: Frontend
 - Solomon: Deployment/Help as needed
 
