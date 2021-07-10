@@ -8,13 +8,13 @@ const compression = require('compression');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const sess = {
-    secret: 'Super secret secret',
-    resave: false,
-    saveUninitialized: true,
-}
+// const sess = {
+//     secret: 'Super secret secret',
+//     resave: false,
+//     saveUninitialized: true,
+// }
 
-app.use(session(sess));
+// app.use(session(sess));
 // Add routes, both API and view
 app.use(routes);
 
