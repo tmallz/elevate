@@ -10,8 +10,8 @@ router.use(function(req, res) {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
-// router.get('/elevate', async (req, res) => {
-//   res.sendFile(path.join(__dirname, "%PUBLIC_URL%/html/maps.html"));;
-// });
+router.get('/elevate', async (req, res) => {
+  res.sendFile(path.join(__dirname, "%PUBLIC_URL%/html/maps.html"));;
+});
 
 module.exports = router;
