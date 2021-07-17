@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Nav from "./components/Nav";
 import Login from "./pages/Login";
-// import Signup from "./pages/Signup";
+import Signup from "./pages/Signup"; 
 import Favorites from './pages/Favorites'
 import Elevate from "./pages/Elevate";
 
@@ -18,6 +18,9 @@ function App() {
           </Route>
           <Route exact path='/login'>
             <Login />
+          </Route>
+          <Route exact path='/signup'>
+            <Signup />
           </Route>
           <Route exact path = '/favorites'>
             <Favorites />

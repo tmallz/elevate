@@ -1,0 +1,27 @@
+.signuppage {
+    font-family: Century;
+  }
+  
+  .signupcard {
+    background-color: #e8ffff;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .signup-btn {
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: #59bfff;
+  }
+  
+  .signup-btn:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
