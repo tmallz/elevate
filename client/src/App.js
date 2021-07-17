@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Nav from "./components/Nav";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup"; 
+import Favorites from './pages/Favorites'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path='/signup'>
             <Signup />
+          </Route>
+          <Route exact path = '/favorites'>
+            <Favorites />
           </Route>
         </Switch>
       </div>
