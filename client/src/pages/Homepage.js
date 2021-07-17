@@ -19,7 +19,6 @@ function Homepage() {
     //window.open('/html/login.html');
   }
 
-
     return (
       <Container fluid>
         <Row>

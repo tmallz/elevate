@@ -1,0 +1,30 @@
+
+.background Img {
+    background-image: url(images/cta.jpg);
+  }
+  
+  .about {
+    font-family: Century
+  }
+
+
+@media (max-width: 375px) {
+    #home1,
+    #home2 {
+      width: auto;
+    }
+  
+    #homeIntro {
+      font-size: 30pt;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    #home1,
+    #home2 {
+      width: auto;
+    }
+    #homeIntro {
+      font-size: 30pt;
+    }
+  }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Nav from "./components/Nav";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup"; 
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route exact path='/login'>
             <Login />
+          </Route>
+          <Route exact path='/signup'>
+            <Signup />
           </Route>
         </Switch>
       </div>
