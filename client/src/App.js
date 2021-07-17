@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup"; 
 import Favorites from './pages/Favorites'
+import Elevate from "./pages/Elevate";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path = '/favorites'>
             <Favorites />
+          </Route>
+          <Route exact path = '/elevate'>
+            <Elevate />
           </Route>
         </Switch>
       </div>
