@@ -60,6 +60,7 @@ class Signup extends Component{
                         className="form-control" 
                         placeholder="Username" 
                         onChange={this.handleTyping}
+                        name = "username"
                         value={this.state.username}
                         />
                     </div>
@@ -69,6 +70,7 @@ class Signup extends Component{
                         className="form-control" 
                         placeholder="Email" 
                         onChange={this.handleTyping}
+                        name = "email"
                         value={this.state.email}
                         />
                     </div>
@@ -78,6 +80,7 @@ class Signup extends Component{
                         className="form-control"
                         placeholder="Password" 
                         onChange={this.handleTyping}
+                        name = "password"
                         value={this.state.password}/>
                     </div>
                     <div className="card">
