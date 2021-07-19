@@ -10,14 +10,15 @@ function Map(props){
       defaultCenter={{lat: 41.8781, lng:-87.6298}}
     >
       {/* fill this in with the positional data from the API call from train stations */}
-      {props.map((station) => (
+      {/* {props.map((station) => (
         <Marker key={props.stationID}  
         position={{lat: props.lat, lng: props.lng}}
         onClick={() => {
           setSelectedStation(station);
         }}
-        />
+        /> 
       ))}
+      */}
 
       {selectedStation && (
         <InfoWindow
