@@ -8,5 +8,9 @@ export default {
 
   createUser: function(user){
     return axios.post("/api/user", user);
+  }, 
+  
+  getUser: function(id){
+    return axios.get("api/user" + id)
   }
 };
