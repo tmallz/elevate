@@ -1,27 +1,33 @@
 .signuppage {
-    font-family: Century;
-  }
-  
-  .signupcard {
-    background-color: #e8ffff;
-    border-radius: 20px;
-    border: none;
-  }
-  
-  .card {
-    border: none;
-  }
-  
-  .signup-btn {
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    border: none;
-    background-color: #59bfff;
-  }
-  
-  .signup-btn:hover {
-    cursor: pointer;
-    color: white;
-  }
-  
+  font-family: Century;
+}
+
+h2{
+  color: white;
+}
+ .signupcard {
+  background-color: #e8ffff;
+  border-radius: 20px;
+  border: none;
+  width: 300px;      
+  height: 150px;         
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 250px;    
+  margin-left: -150px;
+}
+ .card {
+  border: none;
+}
+ .signup-btn {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #59bfff;
+}
+ .signup-btn:hover {
+  cursor: pointer;
+  color: white;
+}

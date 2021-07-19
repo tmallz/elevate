@@ -1,13 +1,14 @@
 import React from "react";
-
+import './nav.css'
+ 
 function Nav() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="/">
-        Elevate
-      </a>
-    </nav>
-  );
+ return (
+   <nav className="navbar">
+     <a className="navbar-brand" href="/">
+       ELEVATE
+     </a>
+   </nav>
+ );
 }
-
+ 
 export default Nav;

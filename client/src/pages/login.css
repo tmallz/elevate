@@ -1,26 +1,50 @@
 .login-form {
-    font-family: Century;
-  }
-  
-  .logincard {
-    background-color: #59bfff;
-    border-radius: 20px;
-    border: none;
-  }
-  
-  .card {
-    border: none;
-  }
-  
-  .login-btn {
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    border: none;
-    background-color: #59bfff;
-  }
-  
-  .login-btn:hover {
-    cursor: pointer;
-    color: white;
-  }
+  font-family: Century;
+}
+
+body {
+  background: url('./images/skyline.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
+}
+.form-group.last {
+margin-bottom:0px;
+}
+.logincard {
+  background-color: #bddff5;
+  border-radius: 20px;
+  border: none;  
+    width: 300px;      
+    height: 150px;         
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 250px;    
+    margin-left: -150px;
+}
+.card {
+  border: none;
+}
+.login-btn {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #bddff5;
+}
+.login-btn:hover {
+  cursor: pointer;
+  color: white;
+}
+
+body {
+position: relative;
+}
