@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Clark/Lake",
+        "lat": 41.885649,
+        "lng": -87.631079,
+        "lines": "Blue/Red/Brown/Purple/Pink"
+    },
+    {
+        "name": "Lake",
+        "lat": 41.885721,
+        "lng": -87.627802,
+        "lines": "Red"
+    },
+    {
+        "name": "Washington/Wabash",
+        "lat": 41.882830,
+        "lng": -87.626160,
+        "lines": "Brown/Green/Orange/Pink/Purple"
+    },
+    {
+        "name": "State/Van Buren",
+        "lat": 41.876863,
+        "lng": -87.628673,
+        "lines": "Brown/Oragne/Pink/Purple"
+    },
+    {
+        "name": "Quincy",
+        "lat": 41.878852,
+        "lng": -87.631754,
+        "lines": "Brown/Oragne/Pink/Purple"
+    },
+    {
+        "name": "Washington/Wells",
+        "lat": 41.882598,
+        "lng": -87.633804,
+        "lines": "Brown/Oragne/Pink/Purple"
+    },
+    {
+        "name": "Jackson",
+        "lat": 41.878197,
+        "lng": -87.629306,
+        "lines": "Blue"
+    }
+]
