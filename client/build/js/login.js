@@ -42,13 +42,13 @@ const loginFormHandler = async (event) => {
     }
   };
   
-  document
-    .querySelector('.login-container')
-    .addEventListener('submit', loginFormHandler);
+  // document
+  //   .querySelector('.login-container')
+  //   .addEventListener('submit', loginFormHandler);
   
-  document
-    .querySelector('.signup-container')
-    .addEventListener('submit', signupFormHandler); 
+  // document
+  //   .querySelector('.signup-container')
+  //   .addEventListener('submit', signupFormHandler); 
   
     
   
