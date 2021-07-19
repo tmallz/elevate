@@ -12,6 +12,42 @@
         "lines": "Red"
     },
     {
+        "name": "Grand",
+        "lat": 41.891760,
+        "lng": -87.628074,
+        "lines": "Red"
+    },
+    {
+        "name": "Chicago",
+        "lat": 41.896432,
+        "lng": -87.635676,
+        "lines": "Red"
+    },
+    {
+        "name": "Jackson",
+        "lat": 41.878221,
+        "lng": -87.627686,
+        "lines": "Red"
+    },
+    {
+        "name": "Clinton",
+        "lat": 41.885570,
+        "lng": -87.641867,
+        "lines": "Pink/Green"
+    },
+    {
+        "name": "Morgan",
+        "lat": 41.885474,
+        "lng": -87.651873,
+        "lines": "Pink/Green"
+    },
+    {
+        "name": "Roosevelt",
+        "lat": 41.867388,
+        "lng": -87.626659,
+        "lines": "Red/Orange/Green"
+    },
+    {
         "name": "Washington/Wabash",
         "lat": 41.882830,
         "lng": -87.626160,
@@ -40,5 +76,23 @@
         "lat": 41.878197,
         "lng": -87.629306,
         "lines": "Blue"
+    },
+    {
+        "name": "UIC/Halstead",
+        "lat": 41.875441,
+        "lng": -87.649168,
+        "lines": "Blue"
+    },
+    {
+        "name": "Illinoise Medical District",
+        "lat": 41.875553,
+        "lng": -87.673241,
+        "lines": "Blue"
+    },
+    {
+        "name": "Washington/Wells",
+        "lat": 41.882598,
+        "lng": -87.633804,
+        "lines": "Brown/Oragne/Pink/Purple"
     }
 ]
