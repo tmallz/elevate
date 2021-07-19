@@ -57,19 +57,19 @@
         "name": "State/Van Buren",
         "lat": 41.876863,
         "lng": -87.628673,
-        "lines": "Brown/Oragne/Pink/Purple"
+        "lines": "Brown/Orange/Pink/Purple"
     },
     {
         "name": "Quincy",
         "lat": 41.878852,
         "lng": -87.631754,
-        "lines": "Brown/Oragne/Pink/Purple"
+        "lines": "Brown/Orange/Pink/Purple"
     },
     {
         "name": "Washington/Wells",
         "lat": 41.882598,
         "lng": -87.633804,
-        "lines": "Brown/Oragne/Pink/Purple"
+        "lines": "Brown/Orange/Pink/Purple"
     },
     {
         "name": "Jackson",
@@ -93,6 +93,6 @@
         "name": "Washington/Wells",
         "lat": 41.882598,
         "lng": -87.633804,
-        "lines": "Brown/Oragne/Pink/Purple"
+        "lines": "Brown/Orange/Pink/Purple"
     }
 ]
