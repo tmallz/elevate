@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow} from "react-google-maps"
 import stationData from "../../utils/stations.json"
 
-function Map(props){
+function Map(){
   const [selectedStation, setSelectedStation] = useState(null);
 
   return(
