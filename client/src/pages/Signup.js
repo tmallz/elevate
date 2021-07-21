@@ -11,6 +11,7 @@ class Signup extends Component{
  
    userSave = () => {
        API.createUser({
+           username: this.state.username,
            email: this.state.email,
            password: this.state.password
        })

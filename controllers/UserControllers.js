@@ -1,19 +1,13 @@
-const db = requestAnimationFrame('../models');
+const db = require('../models');
 
 module.export = {
 
     create: function (req, res){
         db.User.create(req.body)
+        console.log(req)
             .then(dbUser => res.json(dbUser))
-            .catch(err => {
-                if (err.name === 'ValidationError'){
-                    console.log('Cannot Validate', err);
-                    res.status(422).json(err);
-                }else{
-                    console.log(err);
-                    res.satus(500).json(err);
-                }
-            });
+            console.log(dbUser)
+            .catch(err => res.status(422).json(err));;
     },
 
     finaAll: function(req, res) {

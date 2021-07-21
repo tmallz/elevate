@@ -7,10 +7,10 @@ export default {
   },
 
   createUser: function(user){
-    return axios.post("/api/user", user);
+    return axios.post("/api/users", user);
   }, 
   
   getUser: function(id){
-    return axios.get("api/user" + id)
+    return axios.get("api/users" + id)
   }
 };
