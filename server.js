@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/trainsdb",
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/trainsdb",
 {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -26,5 +26,5 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/trainsdb"
 
 // Start the API server
 app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+  console.log(`API Server now listening on PORT ${PORT}!`);
 });

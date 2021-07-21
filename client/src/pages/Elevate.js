@@ -21,7 +21,7 @@ class Elevate extends Component {
     render(){
         return (
             <div>
-                <div style= {{width: '50vw', height: '50vh'}}>
+                <div style= {{width: '75vw', height: '75vh'}}>
                     <Map 
                         googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAZx2oaWVFfDoJOeaZxiE8wqY9RxWE4Mko`}
                         loadingElement = {<div style={{height: "100%"}} />}
