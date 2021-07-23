@@ -10,7 +10,6 @@ function Map(){
       defaultZoom={13}
       defaultCenter={{lat: 41.8781, lng:-87.6298}}
     >
-      {/* fill this in with the positional data from the API call from train stations */}
       {stationData.map(station => (
         <Marker 
           key={station.name}  

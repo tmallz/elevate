@@ -23,7 +23,7 @@ class Elevate extends Component {
             <div>
                 <div style= {{width: '75vw', height: '75vh'}}>
                     <Map 
-                        googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAZx2oaWVFfDoJOeaZxiE8wqY9RxWE4Mko`}
+                        googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=`}
                         loadingElement = {<div style={{height: "100%"}} />}
                         containerElement = {<div style={{height: "100%"}} />}
                         mapElement = {<div style={{height: "100%"}} />}
